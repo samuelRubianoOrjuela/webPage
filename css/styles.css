@@ -1,0 +1,498 @@
+@import url('https://fonts.cdnfonts.com/css/cascadia-code');
+
+* {
+    background-color: #1e1d2b;
+    font-family: 'Cascadia Code', sans-serif;
+    color: white;    
+}
+/*    ENCABEZADO    */
+
+header {
+    margin: 3vw;
+    display: flex;
+    justify-content: space-between;
+}
+#headerTitle {
+    margin: 0;
+    font-size: 2vw;
+    color: #ff702a;
+}
+#headerNav a{
+    font-size: 20px;
+    margin: 0 1vw;
+    text-decoration: none;
+}
+#headerNav a:hover {
+    text-decoration: underline;
+}
+header div {
+    display: flex;
+}
+.checkButton{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+#inputBox {
+    display: none;
+}
+/*    ENCABEZADO    */
+
+
+/*    PAGINA PRINCIPAL    */
+
+#mainPage {
+    margin-bottom: 10vh;
+    display: flex;
+    justify-content: center;
+}
+.mainTxt {
+    align-self: center;
+}
+.mainTxt h1 {
+    font-size: 5vw;
+    color: #ff702a;
+    margin: 0;
+}
+#mainP {
+    margin: 5px 0;
+    font-size: 2vw;
+}
+#menuButton {
+    width: 15vw;
+    margin: 1.5vw 0;
+    padding: 0.5vw 1vw;
+    font-size: 2vw;
+    background-color: #ff702a;
+    transition: transform 0.3s ease-in-out;
+}
+#menuButton:hover {
+    transform: scale(1.04);
+    filter: opacity(0.9);
+}
+.bigImage {
+    margin: 3vw;
+    width: 25%;
+    height: 25%;
+}
+
+/*    PAGINA PRINCIPAL    */
+
+
+/*    ABOUT US    */
+
+#about {
+    padding-top: 15vh;
+    margin-bottom: 10vw;
+    display: flex;
+    justify-content: center;
+}
+#aboutTitle {
+    margin: 0;
+    font-size: 2vw;
+    color: #ff702a;
+}
+.aboutTxt h1 {
+    margin: 5px 0;
+    font-size: 4vw;
+}
+.aboutTxt p {
+    margin: 0;
+}
+#aboutP {
+    font-size: 2vw;
+}
+#learnButton {
+    margin: 16px 0;
+    width: 11.8vw;
+    padding: 0.5vw 1vw;
+    font-size: 2vw;
+    background-color: #ff702a;
+    transition: transform 0.3s ease-in-out;
+}
+#learnButton:hover {
+    transform: scale(1.04);
+    filter: opacity(0.9);
+}
+
+/*    ABOUT US    */
+
+
+
+/*    MENU  &  SERVICES  */
+
+#menu {
+    padding-top: 7vh;
+    margin-bottom: 10vw;
+}
+#services {
+    padding-top: 7vh;
+    margin-bottom: 10vw;
+}
+.msTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.msTxt {
+    margin: 0;
+    color: #ff702a;
+    font-size: 2vw;
+}
+.msTitle h1{
+    margin: 2vw 0;
+    font-size: 4vw;
+}
+.msImg {
+    height: 30vw;
+    margin: 0;
+    padding: 2vw 0;
+    display: flex;
+    justify-content: center;
+}
+.msImg2 {
+    height: 22vw;
+    margin: 0;
+    padding: 2vw 0;
+    display: flex;
+    justify-content: center;
+}
+.box {
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.box2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.contImage {
+    width: 27vw;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contImage2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgs1 {
+    width: 50%;
+    margin-bottom: 1vw;
+    background-color: #ffefe8;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+.imgs2 {
+    width: 50%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+.t1 {
+    margin: 0;
+    font-size: 2vw;
+    color: black;    
+    background-color: #ffefe8;
+}
+.t2 {
+    margin: 0;
+    font-size: 1.7vw;
+    color: black;
+    background-color: #ffefe8;
+}
+.t3 {    
+    margin: 0;
+    font-size: 1.8vw;
+    color: #ff702a;
+    background-color: #ffefe8;
+}
+.t4 {    
+    margin: 0;
+    padding: 0 1.5vw;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+/*    MENU  &  SERVICES  */
+
+/*    MORE    */
+
+#more {
+    width: 96vw;
+    height: 37vw;
+    padding-top: 7vh;
+    margin-bottom: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    position: relative;
+    z-index: 1;
+}
+
+#more h1 {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 4vw;
+    color: black;
+    background-color: #ffefe8;
+}
+.box3 {
+    height: 70%;
+    width: 70%;
+    position: absolute;
+    z-index: -1;
+}
+#learnMoreBoton {
+    margin: 16px 0;
+    width: 11.8vw;
+    padding: 0.5vw 1vw;
+    font-size: 2vw;
+    background-color: #ff702a;
+    transition: transform 0.3s ease-in-out;
+}
+#learnMoreBoton:hover {
+    transform: scale(1.04);
+    filter: opacity(0.9);
+}
+
+/*    MORE    */
+
+
+/*     FOOTER     */
+
+footer {
+    border: solid 3px ;
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+
+}
+.item {
+    margin: 1vw 5vw;
+}
+.item1 nav {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.item1 a {
+    text-decoration: none;
+}
+.item1 a:hover {
+    text-decoration: underline;
+}
+.item2 div p, .item3 div p{
+    margin: 10px 0;
+}
+.icons {
+    min-width: 100px;
+}
+.icon {
+    width: 2.6vw;
+    transition: transform 0.3s ease-in-out;
+}
+.icon:hover {
+    transform: scale(1.1);
+}
+
+/*     FOOTER     */
+
+
+
+/*    MEDIA    */
+
+@media screen and (max-width: 500px) {
+
+    /*    ENCABEZADO    */
+
+    header {
+        margin: 5vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    #principal {
+        margin-top: 20px;
+    }
+    #headerTitle {
+        margin: 0;
+        font-size: 3vh;
+        color: #ff702a;
+    }
+    #headerNav {
+        display: none;
+    }
+    #headerNav a.active {
+        background: none;
+    }
+    .checkButton {
+        display: block;
+    }
+    #inputBox:checked ~ #headerNav {
+        left: 5%;
+    }
+    /*    ENCABEZADO    */
+
+    /*    PAGINA PRINCIPAL    */
+
+    #mainPage {
+        margin: 10vh 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mainTxt {
+        margin-bottom: 3vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mainTxt h1 {
+        font-size: 6vh;
+    }
+    #mainP {
+        margin: 2vh 0;
+        font-size: 2vh;
+    }
+    #menuButton {
+        width: 15vh;
+        font-size: 2vh;
+    }
+    .bigImage {
+        width: 80%;
+    }
+
+    /*    PAGINA PRINCIPAL    */
+
+    /*    ABOUT US    */
+
+    #about {
+        padding-top: 13vh;
+        margin-bottom: 10vh;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #aboutTitle {
+        margin: 0;
+        font-size: 2vh;
+    }
+    .aboutTxt {
+        margin-bottom: 3vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutTxt h1 {
+        margin-top: 2vh;
+        font-size: 4vh;
+    }
+    #aboutP {
+        margin: 2vh 0;
+        font-size: 2vh;
+    }
+    #learnButton {
+        width: 11.8vh;
+        margin: 1.5vh 0;
+        padding: 0.5vh 1vh;
+        font-size: 2vh;
+    }
+
+    /*    ABOUT US    */
+
+
+    /*    MENU & SERVICES    */
+
+    #menu {
+        padding-top: 7vh;
+        margin-bottom: 10vw;
+    }
+    #services {
+        padding-top: 7vh;
+        margin-bottom: 0;
+    }
+    .msTitle {
+        display: flex;
+        justify-content: center;
+    }
+    .msTxt {
+        font-size: 2vh;
+    }
+    .msTitle h1{
+        margin-top: 2vh;
+        margin-bottom: 0;
+        text-align: center;
+        font-size: 4vh;
+    }
+    .msImg {
+        height: 110vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .msImg2 {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contImage {
+        margin: 2vh;
+        width: 36vh;
+    }
+    .t1 {
+        font-size: 2vh;
+    }
+    .t2 {
+        font-size: 1.7vh;
+    }
+    .t3 {    
+        font-size: 1.8vh;
+    }
+    .t4 {    
+        width: 250px;
+        font-size: 1.8vh;
+    }
+
+    /*    MENU & SERVICES    */
+
+    /*    FOOTER    */
+
+    footer {
+        border: solid 3px ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 2vH;
+    
+    }
+    .item {
+        margin: 1vh 5vw;
+    }
+    .item4 {
+        margin-bottom: 3vh;
+    }
+    .icon {
+        width: 2.6vH;
+    }
+
+    /*    FOOTER    */
+}
+
+/*    MEDIA    */
